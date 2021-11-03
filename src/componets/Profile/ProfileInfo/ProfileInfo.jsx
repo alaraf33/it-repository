@@ -70,8 +70,6 @@ const ProfileData = ({profile, isOwner, goToEditMode}) =>{
     </div>
 }
 
-
-
 const Contact = ({contactTitle, contactValue}) =>{
         return <div className={s.contact}><b>{contactTitle}</b>: {contactValue}</div>
 }

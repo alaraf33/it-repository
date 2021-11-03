@@ -21,8 +21,6 @@ const authReducer = (state = initialState, action) => {
                 ...state,
                 ...action.payload
             }
-
-
         default:
             return state;
         }
